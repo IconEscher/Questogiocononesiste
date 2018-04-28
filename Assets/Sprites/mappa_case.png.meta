@@ -1,0 +1,701 @@
+fileFormatVersion: 2
+guid: 3b539395891ac554daa9aa927cea09cb
+timeCreated: 1524906268
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mappa_case_0
+    21300002: mappa_case_1
+    21300004: mappa_case_2
+    21300006: mappa_case_3
+    21300008: mappa_case_4
+    21300010: mappa_case_5
+    21300012: mappa_case_6
+    21300014: mappa_case_7
+    21300016: mappa_case_8
+    21300018: mappa_case_9
+    21300020: mappa_case_10
+    21300022: mappa_case_11
+    21300024: mappa_case_12
+    21300026: mappa_case_13
+    21300028: mappa_case_14
+    21300030: mappa_case_15
+    21300032: mappa_case_16
+    21300034: mappa_case_17
+    21300036: mappa_case_18
+    21300038: mappa_case_19
+    21300040: mappa_case_20
+    21300042: mappa_case_21
+    21300044: mappa_case_22
+    21300046: mappa_case_23
+    21300048: mappa_case_24
+    21300050: mappa_case_25
+    21300052: mappa_case_26
+    21300054: mappa_case_27
+    21300056: mappa_case_28
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mappa_case_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 886
+        width: 261
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -130.5, y: 56.5}
+        - {x: -130.5, y: -56.5}
+        - {x: 129.5, y: -56.5}
+        - {x: 130.5, y: -55.5}
+        - {x: 130.5, y: 56.5}
+      - - {x: -46.5, y: 13.5}
+        - {x: -16.5, y: 13.5}
+        - {x: -16.5, y: -15.5}
+        - {x: -46.5, y: -15.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 945
+        width: 137
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.5, y: 27.5}
+        - {x: -68.5, y: -27.5}
+        - {x: 68.5, y: -27.5}
+        - {x: 68.5, y: 27.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_2
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 945
+        width: 211
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -105.5, y: 27.5}
+        - {x: -105.5, y: -27.5}
+        - {x: 105.5, y: -27.5}
+        - {x: 105.5, y: 27.5}
+      - - {x: 29.5, y: 20.5}
+        - {x: 70.5, y: 20.5}
+        - {x: 70.5, y: 3.5}
+        - {x: 29.5, y: 3.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_3
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 945
+        width: 246
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -123, y: 27}
+        - {x: -123, y: -27}
+        - {x: 122, y: -27}
+        - {x: 123, y: -26}
+        - {x: 123, y: 27}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 682
+        width: 260
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -130, y: 78.5}
+        - {x: -130, y: -78.5}
+        - {x: 130, y: -78.5}
+        - {x: 130, y: 78.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 837
+        width: 138
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 29.5}
+        - {x: -69, y: -29.5}
+        - {x: 69, y: -29.5}
+        - {x: 69, y: 29.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_6
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 763
+        width: 215
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107.5, y: 68.5}
+        - {x: -107.5, y: -68.5}
+        - {x: 107.5, y: -68.5}
+        - {x: 107.5, y: 68.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_7
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 570
+        width: 245
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 3, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.157227, y: 91}
+        - {x: 15.129761, y: -22.108887}
+        - {x: -119.419556, y: -24.168274}
+        - {x: -120.5163, y: -87.94757}
+        - {x: 122.5, y: -91}
+        - {x: 121.47241, y: 91}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_8
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 798
+        width: 112
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: 50}
+        - {x: -56, y: -50}
+        - {x: 56, y: -50}
+        - {x: 56, y: 50}
+      - - {x: -48, y: 43}
+        - {x: 49, y: 43}
+        - {x: 49, y: -45}
+        - {x: -48, y: -45}
+      - - {x: -31, y: 19}
+        - {x: -32, y: 3}
+        - {x: -32, y: -24}
+        - {x: -28, y: -27}
+        - {x: 35, y: -27}
+        - {x: 35, y: 19}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_9
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 684
+        width: 142
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71, y: 6.5}
+        - {x: 71, y: 53.5}
+        - {x: -71, y: 53.5}
+        - {x: -71, y: -53.5}
+        - {x: 71, y: -53.5}
+        - {x: 71, y: -21.5}
+        - {x: 69, y: -19.5}
+      - - {x: -21, y: 19.5}
+        - {x: 0, y: 19.5}
+        - {x: 0, y: -20.5}
+        - {x: -21, y: -20.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_10
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 570
+        width: 95
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: 73}
+        - {x: -47.5, y: -38}
+        - {x: -46.5, y: -73}
+        - {x: 47.5, y: -73}
+        - {x: 47.5, y: 73}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_11
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 571
+        width: 113
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 72.5}
+        - {x: -56.5, y: -71.5}
+        - {x: -55.5, y: -72.5}
+        - {x: 56.5, y: -72.5}
+        - {x: 56.5, y: 72.5}
+      - - {x: -17.5, y: 31.5}
+        - {x: 22.5, y: 31.5}
+        - {x: 22.5, y: -38.5}
+        - {x: -17.5, y: -38.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 571
+        width: 111
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: 35}
+        - {x: -55.5, y: -35}
+        - {x: 55.5, y: -35}
+        - {x: 55.5, y: 35}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 366
+        width: 90
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 79}
+        - {x: -45, y: -79}
+        - {x: 45, y: -79}
+        - {x: 45, y: 79}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_14
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 467
+        width: 107
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.5, y: 28.5}
+        - {x: -53.5, y: -28.5}
+        - {x: 53.5, y: -28.5}
+        - {x: 53.5, y: 28.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 370
+        width: 156
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: 77}
+        - {x: -78, y: -77}
+        - {x: 78, y: -77}
+        - {x: 78, y: 77}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_16
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 459
+        width: 104
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 32.5}
+        - {x: -52, y: -32.5}
+        - {x: 52, y: -32.5}
+        - {x: 52, y: 32.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_17
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 457
+        width: 123
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.5, y: 33}
+        - {x: -61.5, y: -33}
+        - {x: 61.5, y: -33}
+        - {x: 61.5, y: 33}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_18
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 326
+        width: 184
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92, y: 98.5}
+        - {x: -92, y: -98.5}
+        - {x: 92, y: -98.5}
+        - {x: 92, y: 98.5}
+      - - {x: -50, y: 59.5}
+        - {x: 3, y: 59.5}
+        - {x: 3, y: 22.5}
+        - {x: -50, y: 22.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_19
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 324
+        width: 123
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.5, y: -36.5}
+        - {x: 61.5, y: 44.5}
+        - {x: -61.5, y: 44.5}
+        - {x: -61.5, y: -44.5}
+        - {x: 60.5, y: -44.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 90
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 81.5}
+        - {x: -45, y: -81.5}
+        - {x: 45, y: -81.5}
+        - {x: 45, y: 81.5}
+      - - {x: -10, y: -6.5}
+        - {x: 14, y: -7.5}
+        - {x: 14, y: -50.5}
+        - {x: -10, y: -50.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_21
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 161
+        width: 113
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 81.5}
+        - {x: -56.5, y: -81.5}
+        - {x: 56.5, y: -81.5}
+        - {x: 56.5, y: 81.5}
+      - - {x: -16.5, y: 47.5}
+        - {x: 18.5, y: 47.5}
+        - {x: 18.5, y: 8.5}
+        - {x: -16.5, y: 8.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_22
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 159
+        width: 156
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: 80.5}
+        - {x: -78, y: -80.5}
+        - {x: 78, y: -80.5}
+        - {x: 78, y: 78.5}
+        - {x: 77, y: 80.5}
+      - - {x: -12, y: 9.5}
+        - {x: 11, y: 43.5}
+        - {x: -2, y: 15.5}
+        - {x: -34, y: -31.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_23
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2
+        width: 108
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 139}
+        - {x: -54, y: -139}
+        - {x: 54, y: -139}
+        - {x: 54, y: 139}
+      - - {x: -45, y: 132}
+        - {x: 48, y: 132}
+        - {x: 8, y: 112}
+        - {x: -45, y: 64}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_24
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 171
+        width: 181
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90.5, y: 54}
+        - {x: -90.5, y: -54}
+        - {x: 90.5, y: -54}
+        - {x: 90.5, y: 54}
+      - - {x: -29.5, y: 45}
+        - {x: 37.5, y: 45}
+        - {x: 37.5, y: 7}
+        - {x: -29.5, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_25
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 0
+        width: 130
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65, y: 140}
+        - {x: -65, y: -101}
+        - {x: -16, y: -140}
+        - {x: 65, y: -140}
+        - {x: 65, y: 140}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 170
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -85, y: 56.5}
+        - {x: -85, y: -56.5}
+        - {x: 85, y: -56.5}
+        - {x: 85, y: 56.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_27
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 36
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 28}
+        - {x: -40, y: 28}
+        - {x: -40, y: -28}
+        - {x: 40, y: -28}
+        - {x: 40, y: 26}
+        - {x: 39, y: 27}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mappa_case_28
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 179
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -89.5, y: 62}
+        - {x: -89.5, y: -62}
+        - {x: 89.5, y: -62}
+        - {x: 89.5, y: 62}
+      - - {x: -1.5, y: 7}
+        - {x: 1.5, y: 10}
+        - {x: 29.5, y: -9}
+        - {x: -45.5, y: -9}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
