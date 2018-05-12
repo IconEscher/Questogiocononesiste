@@ -138,8 +138,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberOfPoints: 6
   patrolPoints: []
-  player: {fileID: 1267783453407538, guid: b24d51611aeb2094a9833f59ba35be2e, type: 2}
   isEnemyMoving: 0
+  healthEnemy: 1
 --- !u!114 &114511772935439832
 MonoBehaviour:
   m_ObjectHideFlags: 1

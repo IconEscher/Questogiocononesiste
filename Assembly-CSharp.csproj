@@ -166,6 +166,7 @@
      <Compile Include="Assets\Scripts\Obstacle.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\WeaponManager.cs" />
+     <Compile Include="Assets\Scripts\WeaponPoint.cs" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh.cginc" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh.shader" />
      <None Include="Assets\AstarPathfindingProject\Plugins\DotNetZip\DotNetZipLicense.txt" />

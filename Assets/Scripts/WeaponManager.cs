@@ -57,6 +57,7 @@ public class WeaponManager : MonoBehaviour {
 					Destroy (weapon);
 					gm.chosenWeapon.GetComponent<SpriteRenderer> ().sprite = this.sprite.sprite;
 				this.onEquip = true;
+				gm.indexAmmo = 3;
 					
 			}
 			break;

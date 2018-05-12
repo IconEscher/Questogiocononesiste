@@ -78,6 +78,12 @@ public class PlayerManager : MonoBehaviour {
 		{
 			StartCoroutine (Invulnerability());
 		}
+
+		if (col.tag == "WeaponPoint") {
+			if (col.GetComponent<WeaponPoint> ().weaponUp == true) {
+				col.GetComponent<WeaponPoint>().weaponUp = false;
+			}
+		}
 	}
 
 	//Removes health and starts invulnerability
@@ -102,4 +108,5 @@ public class PlayerManager : MonoBehaviour {
 		if (invCount <= 0.5f)
 			invulnerable = false;
 	}
+
 }
