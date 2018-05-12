@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4243970400473860}
   - component: {fileID: 212652874691569698}
   - component: {fileID: 61017891898191326}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House16
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -38,9 +38,9 @@ GameObject:
   - component: {fileID: 4590330280811508}
   - component: {fileID: 212729518557613062}
   - component: {fileID: 61060562578531328}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House2
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -55,9 +55,9 @@ GameObject:
   - component: {fileID: 4727690020056196}
   - component: {fileID: 212000186306013110}
   - component: {fileID: 61155302711330110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House29
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -72,9 +72,9 @@ GameObject:
   - component: {fileID: 4206268334829954}
   - component: {fileID: 212670743809166786}
   - component: {fileID: 61892842833401640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House30
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -87,12 +87,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4447097672215486}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Obstacles
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1135631116640978
 GameObject:
@@ -104,9 +104,9 @@ GameObject:
   - component: {fileID: 4729824759957304}
   - component: {fileID: 212502454548246560}
   - component: {fileID: 61405706782904352}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House18
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -121,9 +121,9 @@ GameObject:
   - component: {fileID: 4372372696370198}
   - component: {fileID: 212676288783851974}
   - component: {fileID: 61491681333239354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House25
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -138,9 +138,9 @@ GameObject:
   - component: {fileID: 4797218762342290}
   - component: {fileID: 212414865011727764}
   - component: {fileID: 61261657711753058}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House10
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -155,9 +155,9 @@ GameObject:
   - component: {fileID: 4481189972094852}
   - component: {fileID: 212309977356083136}
   - component: {fileID: 61102711267385420}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House31
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -172,9 +172,9 @@ GameObject:
   - component: {fileID: 4303023317626290}
   - component: {fileID: 212142528429212514}
   - component: {fileID: 61683065135366972}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House24
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -189,9 +189,9 @@ GameObject:
   - component: {fileID: 4403926220722342}
   - component: {fileID: 212889800578013078}
   - component: {fileID: 60860567422246778}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House13
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -206,9 +206,9 @@ GameObject:
   - component: {fileID: 4235037374653528}
   - component: {fileID: 212415313599987042}
   - component: {fileID: 61443863160223328}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House28
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -223,9 +223,9 @@ GameObject:
   - component: {fileID: 4471376305906150}
   - component: {fileID: 212965627856192730}
   - component: {fileID: 61936844435051302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House1
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -240,9 +240,9 @@ GameObject:
   - component: {fileID: 4274135633799876}
   - component: {fileID: 212262339626235734}
   - component: {fileID: 61364671437054408}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House27
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -257,9 +257,9 @@ GameObject:
   - component: {fileID: 4745427410188408}
   - component: {fileID: 212245049244056842}
   - component: {fileID: 61197871223256090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House6
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -274,9 +274,9 @@ GameObject:
   - component: {fileID: 4438626300323664}
   - component: {fileID: 212777983317558958}
   - component: {fileID: 61844323401864340}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House9
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -291,9 +291,9 @@ GameObject:
   - component: {fileID: 4508484296599964}
   - component: {fileID: 212489546902246500}
   - component: {fileID: 61627208295961080}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House3
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -308,9 +308,9 @@ GameObject:
   - component: {fileID: 4866069357193560}
   - component: {fileID: 212822814283616506}
   - component: {fileID: 61416834650486976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House7
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -325,9 +325,9 @@ GameObject:
   - component: {fileID: 4696949756806596}
   - component: {fileID: 212521425701337712}
   - component: {fileID: 61257405772085304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House26
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -342,9 +342,9 @@ GameObject:
   - component: {fileID: 4344063466781854}
   - component: {fileID: 212670282837121976}
   - component: {fileID: 61813924969627780}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House12
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -359,9 +359,9 @@ GameObject:
   - component: {fileID: 4047675025402252}
   - component: {fileID: 212831897515593718}
   - component: {fileID: 61738634715183820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House21
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -376,9 +376,9 @@ GameObject:
   - component: {fileID: 4100156555443786}
   - component: {fileID: 212219709765108302}
   - component: {fileID: 61632026113862148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House4
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -393,9 +393,9 @@ GameObject:
   - component: {fileID: 4686437174524930}
   - component: {fileID: 212641996594799962}
   - component: {fileID: 61631806535980586}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House22
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -410,9 +410,9 @@ GameObject:
   - component: {fileID: 4940503637494246}
   - component: {fileID: 212839362574991876}
   - component: {fileID: 61384689193331008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House20
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -427,9 +427,9 @@ GameObject:
   - component: {fileID: 4608509877368808}
   - component: {fileID: 212689570216933512}
   - component: {fileID: 61528115067105504}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House5
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -444,9 +444,9 @@ GameObject:
   - component: {fileID: 4261763077943270}
   - component: {fileID: 212709728663088208}
   - component: {fileID: 61167359994628952}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House11
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -461,9 +461,9 @@ GameObject:
   - component: {fileID: 4902662641063118}
   - component: {fileID: 212154793017578294}
   - component: {fileID: 61517196975253848}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House17
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -478,9 +478,9 @@ GameObject:
   - component: {fileID: 4510517776046246}
   - component: {fileID: 212284927645018768}
   - component: {fileID: 61005251724210696}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House15
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -495,9 +495,9 @@ GameObject:
   - component: {fileID: 4357726314473738}
   - component: {fileID: 212298058444283380}
   - component: {fileID: 61886083278953442}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House23
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -512,9 +512,9 @@ GameObject:
   - component: {fileID: 4869105227424956}
   - component: {fileID: 212952995076334414}
   - component: {fileID: 61983680683023330}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House8
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -529,9 +529,9 @@ GameObject:
   - component: {fileID: 4394229027806430}
   - component: {fileID: 212321303554750406}
   - component: {fileID: 61641994556834662}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House19
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -546,9 +546,9 @@ GameObject:
   - component: {fileID: 4511034674735976}
   - component: {fileID: 212380608871095276}
   - component: {fileID: 61535882256182594}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House14
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1193,7 +1193,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0038241148, y: 0.0038241148}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1204,7 +1204,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.08, y: 1.6}
+  m_Size: {x: 0.91938806, y: 1.4699805}
   m_EdgeRadius: 0
 --- !u!61 &61197871223256090
 BoxCollider2D:
@@ -1243,7 +1243,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.010046631, y: -0.0042431355}
+  m_Offset: {x: 0.010046601, y: -0.16362679}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1254,7 +1254,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0542376, y: 2.7567744}
+  m_Size: {x: 1.0542376, y: 2.438007}
   m_EdgeRadius: 0
 --- !u!61 &61261657711753058
 BoxCollider2D:
@@ -1468,7 +1468,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.007426262, y: 0.022278786}
+  m_Offset: {x: -0.007426262, y: 0.015269041}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1479,7 +1479,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.6172113, y: 1.5863276}
+  m_Size: {x: 2.5471153, y: 1.5162315}
   m_EdgeRadius: 0
 --- !u!61 &61535882256182594
 BoxCollider2D:
@@ -1693,7 +1693,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0073912144, y: 0.0073912144}
+  m_Offset: {x: 0.01936388, y: -0.020544648}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1704,7 +1704,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.066958, y: 0.9569583}
+  m_Size: {x: 0.6119995, y: 0.40621924}
   m_EdgeRadius: 0
 --- !u!61 &61886083278953442
 BoxCollider2D:
@@ -1793,7 +1793,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01871717, y: 0.006238818}
+  m_Offset: {x: -0.0091894865, y: 0.006238818}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1804,7 +1804,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.88274026, y: 1.5539639}
+  m_Size: {x: 0.8636849, y: 1.5539639}
   m_EdgeRadius: 0
 --- !u!212 &212000186306013110
 SpriteRenderer:
