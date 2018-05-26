@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Scenes/Menu.unity
+    guid: 77ce836fa8ae6c34aacb118f058987cd
+  - enabled: 1
     path: Assets/_Scenes/calcutta.unity
     guid: 376eaa0372c05d44cabfdf75ea457e50

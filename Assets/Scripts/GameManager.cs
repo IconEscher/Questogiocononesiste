@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class GameManager : MonoBehaviour {
@@ -86,7 +87,10 @@ public class GameManager : MonoBehaviour {
 			//weaponGO.GetComponent<SpriteRenderer> ().sprite = weaponSprites [chosenSprite];
 			}
 
-
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
 
 	}
 
@@ -134,7 +138,7 @@ public class GameManager : MonoBehaviour {
         if (indexAmmo == 0) weaponCanvas.sprite = transparent;
     }
 
-    public void BackToMenu()
+    public void BackToMenu(string scene)
     {
 
     }

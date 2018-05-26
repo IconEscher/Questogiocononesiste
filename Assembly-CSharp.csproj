@@ -162,6 +162,7 @@
      <Compile Include="Assets\health.cs" />
      <Compile Include="Assets\Scripts\EnemyAIManager.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\MenuManager.cs" />
      <Compile Include="Assets\Scripts\ObjectiveManager.cs" />
      <Compile Include="Assets\Scripts\Obstacle.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
