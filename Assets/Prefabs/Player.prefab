@@ -99,13 +99,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13fc292a4641a204b94ce50472eb309f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 3
   isMoving: 0
-  movingHor: 0
-  movingVer: 0
-  direction: {x: 0, y: 0}
-  health: 3
+  maxHealth: 5
+  health: 5
   invulnerable: 0
+  direction: {x: 0, y: 0}
+  playerHealth: {fileID: 0}
 --- !u!212 &212218183803760432
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -100,7 +100,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  velocity: 7
   onEquip: 1
 --- !u!212 &212415109871332982
 SpriteRenderer:
@@ -134,7 +133,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: b0b1dcc3df64743459ba1c16f2b95e9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: acb142e3a742c124aac8a7c20d6f8c7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

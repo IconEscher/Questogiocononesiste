@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class GameManager : MonoBehaviour {
+
 
 	[Header("Prefabs")]
 	public GameObject playerPrefab;
@@ -20,8 +22,11 @@ public class GameManager : MonoBehaviour {
 	public int chosenSprite;
 	//public int indexWeapons;
 	public int indexAmmo;
+    public Text indexAmmoText;
+    public Image weaponCanvas;
+    public Sprite transparent;
 
-	[Header("Enemies")]
+    [Header("Enemies")]
 	public List<GameObject> enemyList;
 	public List<Sprite> enemySprites;
 	public List<GameObject> patrolPoints;
@@ -36,8 +41,9 @@ public class GameManager : MonoBehaviour {
 	private float time;
 
 
-	// START
-	void Start () {
+
+    // START
+    void Start () {
 		patrolPoints = new List<GameObject> (numberOfPatrols);
 		weaponPoints = new List<GameObject> (numberOfWeaponPoints);
 		enemyList = new List<GameObject> (numberOfEnemies);
@@ -75,9 +81,11 @@ public class GameManager : MonoBehaviour {
 			GameObject player = GameObject.FindGameObjectWithTag ("Player");
 			GameObject weaponGO = Instantiate (chosenWeapon, player.transform.position, Quaternion.identity);
 			indexAmmo--;
+            UpdateAmmo();
 			//chosenSprite = Random.Range (0, weaponSprites.Capacity - 1);
 			//weaponGO.GetComponent<SpriteRenderer> ().sprite = weaponSprites [chosenSprite];
 			}
+
 
 
 	}
@@ -120,6 +128,17 @@ public class GameManager : MonoBehaviour {
 		spawnTime = Random.Range(minTime, maxTime);
 	}
 
+    public void UpdateAmmo()
+    {
+        indexAmmoText.text = indexAmmo.ToString();
+        if (indexAmmo == 0) weaponCanvas.sprite = transparent;
+    }
+
+    public void BackToMenu()
+    {
+
+    }
+    
 }
 
 

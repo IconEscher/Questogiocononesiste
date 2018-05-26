@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine; 
+using UnityEngine;
 
 public class WeaponManager : MonoBehaviour {
 
 	public int damage;
-	public int velocity;
+	//public float speedWeapon;
 	SpriteRenderer sprite;
 	Rigidbody2D rb;
 	GameObject weapon;
 	GameManager gm;
 	public bool onEquip = false;
+    
 
 	// START
 	void Start () {
@@ -25,9 +26,9 @@ public class WeaponManager : MonoBehaviour {
 		if (onEquip) {
 			
 			// Saving mouse position
-			Vector2 moveDirection = (Camera.main.ScreenToWorldPoint (Input.mousePosition) - transform.position).normalized * velocity;
-			// Applying velocity to weapon
-			rb.velocity = new Vector2 (moveDirection.x, moveDirection.y);
+			Vector2 moveDirection = Camera.main.ScreenToWorldPoint (Input.mousePosition) - transform.position;
+            // Applying velocity to weapon
+            rb.AddForce(moveDirection.normalized * 150f);
 		}
 	}
 
@@ -56,8 +57,10 @@ public class WeaponManager : MonoBehaviour {
 				if (!onEquip) {
 					Destroy (weapon);
 					gm.chosenWeapon.GetComponent<SpriteRenderer> ().sprite = this.sprite.sprite;
+                    gm.weaponCanvas.sprite = this.sprite.sprite;
 				this.onEquip = true;
 				gm.indexAmmo = 3;
+                gm.UpdateAmmo();
 					
 			}
 			break;

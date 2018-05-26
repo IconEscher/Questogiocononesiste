@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour {
 
 
 	[Header("Player Settings")]
-	public float speed = 5;
+	public float speed;
 	public bool isMoving;
-	public int health = 3;
+	public float maxHealth = 5;
+    public float health = 5;
 	public bool invulnerable = false;
 
 	bool movingHor;
@@ -17,9 +19,12 @@ public class PlayerManager : MonoBehaviour {
 
 	float invCount = 3;
 
-	// START
-	void Start () {
+    public Image playerHealth;
+
+    // START
+    void Start () {
 		direction = Vector2.zero;
+        playerHealth = GameObject.Find("PlayerHealth").GetComponent<Image>();
 	}
 
 	// UPDATE
@@ -91,8 +96,14 @@ public class PlayerManager : MonoBehaviour {
 	{
 		invulnerable = true;
 		health--;
+        UpdateHealthBar();
+        if (health == 0)
+        {
+            HasLost();
+            yield break;
+        }
 
-		invCount = 3;
+        invCount = 3;
 		while (invCount > 0)
 		{
 			invCount -= 1;
@@ -109,4 +120,20 @@ public class PlayerManager : MonoBehaviour {
 			invulnerable = false;
 	}
 
+    public void UpdateHealthBar()
+    {
+        float newHP = health / maxHealth;
+        Debug.Log(newHP);
+        playerHealth.transform.localScale = new Vector3(playerHealth.transform.localScale.x, newHP, playerHealth.transform.localScale.z);
+
+    }
+
+    public void HasLost()
+    {
+        PlayerManager pm = GameObject.Find("Player").GetComponent<PlayerManager>();
+        pm.invulnerable = true;
+        ObjectiveManager om = GameObject.Find("Objectives").GetComponent<ObjectiveManager>();
+        om.endGameCanvas.gameObject.SetActive(true);
+        om.lossImage.gameObject.SetActive(true);
+    }
 }
